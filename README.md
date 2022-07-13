@@ -1,2 +1,2 @@
-# project-euler
+# Project Euler
 Repo for Project Euler problems
