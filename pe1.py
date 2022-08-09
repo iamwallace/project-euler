@@ -7,8 +7,8 @@
 sum = 0
 
 
-print("Please enter an upper bound for the sum of natural numbers. (e.g. 1000)")
-input = int(input()) + 1
+print("Enter a number to be the upper bound for the sum of natural numbers. (e.g. 1000)")
+input = int(input())
 
 
 for x in range(1, input):
