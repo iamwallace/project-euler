@@ -89,9 +89,9 @@ for row in range(maxPosition-3):
 
 # # \ diagonal
 
-for row in range(0, maxPosition-3):
+for row in range(maxPosition-3):
 
-    for column in range(0, maxPosition-3):
+    for column in range(maxPosition-3):
 
         tempProduct = data[row][column] * data[row+1][column+1] * data[row+2][column+2] * data[row+3][column+3]
     
@@ -103,9 +103,9 @@ for row in range(0, maxPosition-3):
 
 # / diagonal
 
-for row in range(0, maxPosition-3):
+for row in range(maxPosition-3):
 
-    for column in range(0, maxPosition-3):
+    for column in range(maxPosition-3):
 
         tempProduct = data[row][column+3] * data[row+1][column+2] * data[row+2][column+1] * data[row+3][column]
     
